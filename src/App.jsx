@@ -6,8 +6,9 @@ const App = () => {
   const [bgColor, setBgColor] = useState('bg-black');
 
   const changeToRed = () => setBgColor('bg-red-700')
+  const changeToBlue = () => setBgColor('bg-yellow-300')
   const changeToGreen = () => setBgColor('bg-lime-500')
-  const changeToBlue = () => setBgColor('bg-blue-700')
+
 
   const buttonStyle = 'rounded-full px-4 py-1 text-white font-bold'
 
@@ -30,7 +31,7 @@ const App = () => {
 
                 <button 
         onClick={changeToBlue}
-        className={`${buttonStyle} bg-blue-700 relative top-35`}
+        className={`${buttonStyle} bg-yellow-300 relative top-35`}
         >
           Blue
         </button>
